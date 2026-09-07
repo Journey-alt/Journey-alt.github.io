@@ -32,6 +32,7 @@ minmax(420px, 1.6fr);
   align-items: flex-start;
   gap: 12px;
 }
+
 h2 {
   margin: 0;
   font-size: clamp(4rem, 10vw, 7rem);
@@ -41,15 +42,16 @@ h2 {
   text-transform: uppercase;
   color: #001aff;
 }
+
 .content > p {
   margin: 0;
-  font-size: clamp(4rem, 10vw, 7rem);
-  line-height: 0.9;
-  font-weight: 900;
-  letter-spacing: -0.04em;
-  line-height: 1.4;
   color: #006aff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 1.4;
 }
+
 #interests {
   margin-top: 32px;
   width: 100%;
@@ -110,7 +112,7 @@ h2 {
 }
 
 .sidebar-img:hover {
-  filter: grayscale(0%) saturate(230%);
+  filter: grayscale(0%) saturate(100%);
   transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
 }
